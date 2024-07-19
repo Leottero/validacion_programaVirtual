@@ -1,0 +1,148 @@
+<!-- Archivo: landing-page.html
+Descripción: Este archivo contiene el código para una landing page que permite validar la propuesta de valor del
+modelo de negocio de Reactívate. -->
+
+
+
+<!DOCTYPE HTML>
+
+
+<html lang="es">
+	
+	<head>
+		<title>validacion_programaVirtual</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/assets/css/reset.css">
+        <link rel="stylesheet" href="/assets/css/styles.css">
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+		<div id="wrapper">
+
+			<!-- Header -->
+			<header id="header" class="alt">
+				<span class="logo"><img src="/imagenes/logo_transparent_recorte.png" width="450" height="186" alt="" /></span>
+				<h1>Reactívate</h1>
+				<p>Descubre tu camino hacia el bienestar y la transformación personal<br />
+				Programa virtual de acompañamiento personalizado para mujeres con sobrepeso u obesidad</p>
+			</header>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul>
+					<li><a href="#intro" class="active">Introducción</a></li>
+					<li><a href="#first">Beneficios</a></li>
+					<li><a href="#second">IMC</a></li>
+					<li><a href="#cta">Formulario</a></li>
+				</ul>
+			</nav>
+
+			<!-- Main -->
+			<div id="main">
+
+				<!-- Introduction -->
+				<section id="intro" class="main">
+					<div class="spotlight">
+						<div class="content">
+							<header class="major">
+								<h2>Descubre cómo transformar tu vida</h2>
+							</header>
+							<p>En Reactívate, entendemos que el bienestar y la salud son esenciales para tu calidad de vida. Nuestro programa virtual está diseñado exclusivamente para mujeres como tú, que enfrentan los desafíos del sobrepeso u obesidad. Sabemos que no se trata solo de perder peso, se trata de sentirte bien contigo mism@, tanto física como emocionalmente.</p>										
+						</div>
+						<iframe width="500px" height="333px" src="/imagenes/01-video-landing-page-reactivate_pk6kSdMe.mp4" type="video/mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</section>
+
+				<!-- First Section -->
+				<section id="first" class="main special">
+					<header class="major">
+						<h2>Nuestra solución ofrece los siguientes beneficios</h2>
+					</header>
+					<ul class="features">
+						<li>
+							<span class="icon solid major style1 fa-code"></span>
+							<h3>Acceso a información y recursos personalizados</h3>
+							<p>Nuestra plataforma web y la app móvil brindan a las personas acceso a información y recursos personalizados sobre dieta, ejercicio físico, salud y bienestar. Esta información está adaptada a las necesidades y preferencias individuales de cada usuario.</p>
+						</li>
+						<li>
+							<span class="icon major style3 fa-copy"></span>
+							<h3>Apoyo social y psicológico</h3>
+							<p>El acompañamiento individualizado por un coach de bienestar brinda
+								a las personas apoyo social y psicológico para ayudarles a alcanzar sus objetivos de pérdida de peso. El coach ayuda a las personas a desarrollar hábitos saludables, superar obstáculos y mantener la motivación.</p>
+						</li>
+						<li>
+							<span class="icon major style5 fa-gem"></span>
+							<h3>Flexibilidad</h3>
+							<p>La solución es flexible y puede adaptarse a las necesidades individuales del usuario. Los usuarios pueden acceder a la plataforma web y la app móvil desde cualquier lugar y en cualquier momento.</p>
+						</li>
+					</ul>
+				</section>
+
+				<!-- Second Section -->
+				<section id="second" class="main special">
+					<header class="major">
+						<h2>Calculadora de IMC</h2>
+						<p>¡Cuida de tu salud hoy mismo! Conoce tu índice de masa corporal (IMC) y descubre cómo te encuentras en tu viaje hacia un estilo de vida más saludable.<br /> Tu salud es tu mayor tesoro, y esta calculadora del IMC es tu aliada para tomar decisiones encaminadas hacia tu bienestar.</p>
+					</header>
+					<!-- Código para la calculadora de IMC -->
+					<div class="container_imc">
+						<h2>Calculadora de IMC</h2>
+						<p>¡Mide tu IMC ahora y da el primer paso hacia una vida más saludable!</p>
+						<label for="peso">Peso (kg):</label>
+						<input type="text" id="peso" placeholder="Ingrese su peso.">
+						<label for="altura">Altura (m):</label>
+						<input type="text" id="altura" placeholder="Ingrese su altura. Ej: (1.60)">
+						<input type="button" value="Calcular" onclick="calcularIMC()">
+						<div id="resultado"></div>
+					</div>
+				</section>
+
+				<!-- Get Started -->
+				<section id="cta" class="main special">
+					<div class="validacion">
+						
+						<!-- Campos del formulario -->
+						<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfbwK-TdlZbDeqsB9FoXj49sVfsp-THUpwOr_eRU0fgmBeJCQ/viewform?embedded=true" width="640" height="2508" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>			
+								
+								
+				
+								
+					</div>
+						
+				</section>
+
+					
+
+				<!-- Footer -->
+				<footer class="derechos_autor">
+					<img src="imagenes/logo_transparent_recorte.png" width="150" height="62">
+					<p id="derechos">&copy Copyright Reactívate - 2023</p>
+				</footer>
+
+			
+
+				<!-- Scripts -->
+				<script src="assets/js/jquery.min.js"></script>
+				<script src="assets/js/jquery.scrollex.min.js"></script>
+				<script src="assets/js/jquery.scrolly.min.js"></script>
+				<script src="assets/js/browser.min.js"></script>
+				<script src="assets/js/breakpoints.min.js"></script>
+				<script src="assets/js/util.js"></script>
+				<script src="assets/js/main.js"></script>
+				<script src="assets/js/script.js"></script>
+
+
+
+
+
+
+			</div>
+		</div>				
+
+	</body>
+</html>
